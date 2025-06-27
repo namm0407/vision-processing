@@ -1,4 +1,5 @@
-#runs fine
+# can accurately describe the given photo.
+# runs fine but the runtime is a few minutes (about 3 minutes)
 
 from transformers import AutoModelForCausalLM, AutoProcessor
 from qwen_vl_utils import process_vision_info
